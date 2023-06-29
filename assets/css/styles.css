@@ -386,14 +386,14 @@ img {
 
 /* ===== CONTACT =====*/
 .contact__input {
-  width: 100%;
+  /* width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
   padding: 1rem;
   border-radius: .5rem;
   border: 1.5px solid var(--second-color);
   outline: none;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-4); */
 }
 
 .contact__button {
@@ -538,6 +538,10 @@ img {
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+  }
+  .work__container1{
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
 }
